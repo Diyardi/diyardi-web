@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('BebasNeue-Regular.eot') format('eot'),
+         url('BebasNeue-Regular.woff') format('woff'),
+         url('BebasNeue-Regular.woff2') format('woff2'),
+         url('BebasNeue-Regular.ttf') format('truetype'),
+         url('BebasNeue-Regular.otf') format('opentype');
+}
+
+body
+{
+	background-color: #131b22;
+	width: 1325px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header
+{
+	/*padding-left: 125px;*/
+	/*padding-right: 125px;*/
+	padding-top: 25px;
+	display: flex;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	margin: auto;
+}
+
+nav li
+{
+	margin-right: 200px; /* Séparation entre les textes */
+}
+
+nav a
+{
+	font-family: Arial;
+	font-size: 1.3em;
+	color: white;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #bdc7e5;
+}
+
+.apropos
+{
+	margin-right: 60px;
+}
+
+.diyardi_logo
+{
+	font-size: 32px;
+	text-decoration: none;
+	color: white;
+	font-family: 'BebasNeue-Regular', Arial;
+	margin-right: 115px;
+	margin-left: 50px;
+}
+
+.about_titre
+{
+	font-family: Arial;
+	font-size: 24px;
+	color: white;
+	/*padding-left: 175px;*/
+	padding-top: 45px;
+}
+
+.about
+{
+	font-family: Arial;
+	font-size: 16px;
+	color: white;
+	/*margin: auto;
+	width: 50%
+	min-width: 100px;*/
+}
+
+.img_cv
+{
+	width: 215px;
+	/*margin-left: 125px;*/
+	display: block;
+	/*padding-top: 30px;
+	padding-left: 200px;*/
+	float: left;
+	padding-top: 20px;
+}
+
+.realisation
+{
+	font-family: Arial;
+	color: white;
+
+}
+
+.realisation:hover
+{
+	color: #bdc7e5;
+}
+
+.aside_exp_pro
+{
+	float: left;
+}
+
+.aside_formation
+{
+	float: left;
+}
+
+#exp_pro
+{
+	width: 650px;
+	padding: 15px;
+	border: 1px white solid;
+	float: left;
+	font-family: Arial;
+	color: white;
+}
+
+#formation
+{
+	width: 550px;
+	padding: 15px;
+	border: 1px white solid;
+	float: right;
+	font-family: Arial;
+	color: white;
+}
+
+.p_exp_pro
+{
+	margin-left: 120px;
+}
+
+.p_formation
+{
+	margin-left: 120px;
+}
