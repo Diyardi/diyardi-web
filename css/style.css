@@ -65,6 +65,38 @@ nav a:hover
 	color: #bdc7e5;
 }
 
+.realisation_dropdown
+{
+	background-color: #131b22;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.realisation_dropdown:hover {
+background-color: #0f161c;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+background-color: #f28c8c;
+min-width: 50px;
+}
+.dropdown-child a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+}
+
+
 .diyardi_logo
 {
 	font-size: 32px;
