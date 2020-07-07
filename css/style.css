@@ -23,21 +23,6 @@ header
 	display: flex;
 }
 
-.section_index
-{
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	/*padding-left: 125px;
-	padding-right: 125px;*/
-}
-
-.section_about
-{
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 nav ul
 {
@@ -46,56 +31,69 @@ nav ul
 	margin: auto;
 }
 
-nav li
-{
-	margin-right: 200px; /* Séparation entre les textes */
-}
-
 nav a
 {
 	font-family: Arial;
 	font-size: 1.3em;
 	color: white;
-	padding-bottom: 3px;
 	text-decoration: none;
+	padding-left: 100px;
+	padding-right: 100px;
+	transition: all 0.25s ease-out;
 }
 
 nav a:hover
 {
-	color: #bdc7e5;
+	background-color:#0e161c;
 }
 
-.realisation_dropdown
+.dropdownmenu
 {
-	background-color: #131b22;
-	color: white;
-	border: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.dropdownmenu ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+
+.dropdownmenu li
+{
+	position: relative;
+}
+
+.dropdownmenu a
+{
+	display: block;
 	cursor: pointer;
+	line-height: 80px;
 }
 
-.realisation_dropdown:hover {
-background-color: #0f161c;
+.dropdownmenu li:hover ul
+{
+	display: block;
+	position: absolute;
+	background-color: #0e161c;
 }
 
-.dropdown {
-position: relative;
-display: inline-block;
-}
-.dropdown-child {
-display: none;
-background-color: #f28c8c;
-min-width: 50px;
-}
-.dropdown-child a {
-color: white;
-padding: 20px;
-text-decoration: none;
-display: block;
-}
-.dropdown:hover .dropdown-child {
-display: block;
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #0e161c;
 }
 
+.ul_real
+{
+	width: 313px;
+}
+
+.ul_real a:hover
+{
+	background-color: #0c1217;
+}
 
 .diyardi_logo
 {
@@ -104,6 +102,7 @@ display: block;
 	color: white;
 	font-family: 'BebasNeue-Regular', Arial;
 	margin-right: 75px;
+	margin-top: 20px;
 }
 
 #presentation
@@ -115,11 +114,17 @@ iframe
 {
 	display: block;
 	margin: auto;
+	margin-top: 50px;
 }
 
 .apropos
 {
-	margin-right: 60px;
+	white-space: nowrap;
+}
+
+.contact
+{
+	text-align: right;
 }
 
 .diyardi_logo
@@ -128,7 +133,6 @@ iframe
 	text-decoration: none;
 	color: white;
 	font-family: 'BebasNeue-Regular', Arial;
-	margin-right: 115px;
 	margin-left: 50px;
 }
 
